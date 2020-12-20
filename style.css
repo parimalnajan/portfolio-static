@@ -15,7 +15,7 @@ body{
     display:flex;
     border-bottom: solid 2px grey;
     justify-content: space-between;
-    padding:40px;
+    padding:32px 8px 32px 8px;
     border-bottom-left-radius: 24px;
    
   }
@@ -49,7 +49,7 @@ body{
   }
   
   .link-wrap a{
-    color:var(--dark-gray);
+    color:var(--primary-color);
     text-decoration: none;
     transition: color 0.2s;
   }
@@ -67,10 +67,133 @@ body{
     color:brown;
   }
 
+.brand-wrap{
+    color:var(--primary-color);
+    font-weight: 700;
+    margin-left: 16px;
+}
 
+.intro p{
+    font-size: 18px;
+}
 
-  img{
-      display: block;
-      max-width: 350px;
-      margin: auto;
+  .intro>img{
+      margin: 10px;
+      display: inline;
+      max-width: 450px;
+      
   }
+
+  .intro{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 40px;
+      
+  }
+
+  #text{
+      padding:40px;
+  }
+  @media(max-width:770px){
+         .intro{
+         flex-direction: column;
+         margin: auto;
+         }
+        img{
+            
+             margin: auto;
+         }
+         #text{
+           margin: auto;
+         }
+  }
+
+  #name{
+      color:var(--primary-color);
+  }
+
+
+  .footer-wrap{
+      color:var(--primary-color);
+        padding:16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      border-top: 2px solid grey;
+      
+  }
+ li{
+     list-style-type: none;
+     display: inline;
+     margin-right: 16px;
+     align-self: center;
+ }
+ 
+  #tech{
+      
+     
+      background-color: #E5E7EB;
+  }
+
+  #project-heading{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+
+  }
+
+  .project-name{
+      font-size: 22px;
+  }
+
+  .project{
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       
+    margin: auto;
+    width: 450px;
+ 
+    background-color: #E5E7EB;
+    padding:16px 24px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    
+  }
+  .project-alt{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       
+    margin: auto;
+    width: 450px;
+ 
+   
+    padding:16px 24px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  .demo-btn{
+    color: white;
+    background-color:var(--primary-color); ;
+    width: 100px;
+    height:40px;
+}
+  .src-btn{
+      color: var(--primary-color);
+      height: 40px;
+      width: 100px;
+  }
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+ 
+  

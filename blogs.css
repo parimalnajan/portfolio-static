@@ -1,0 +1,39 @@
+#blog-header{
+    font-size: 40px;
+    text-align: center;
+}
+
+.dummy-blog{
+    max-width:600px;
+    margin:auto;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    border:2px solid grey;
+    padding:8px 24px;
+
+}
+
+.blog-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.blog-btn{
+    color: white;
+    background-color:#2563EB ;
+    width: 100px;
+    height:40px;
+}
+
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin:auto;
+    margin-bottom: 40px;
+}
+
+#blogimg{
+    width: 100px;
+    height: 100px;
+}
