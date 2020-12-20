@@ -1,2 +1,2 @@
 # portfolio-static
- portfolio site
+ portfolio site link: https://parimal-dev.netlify.app
