@@ -123,19 +123,20 @@ body{
          }
          .link-wrap{
           margin-top: 24px;
-          margin-left: auto;
+        
           
           
          }
          .nav-wrap{
-           display: block;
+           display: flex;
            padding:16px 4px 16px 4px;
-      
+            justify-content: left;
+       
            margin-bottom: 40px;
          }
 
          .nav-right{
-          align-self: center;
+         align-self: left;
          }
   }
 
