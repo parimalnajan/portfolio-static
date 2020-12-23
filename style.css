@@ -130,11 +130,12 @@ body{
          .nav-wrap{
            display: block;
            padding:16px 4px 16px 4px;
+      
            margin-bottom: 40px;
          }
 
-         .project{
-          
+         .nav-right{
+          align-self: center;
          }
   }
 
